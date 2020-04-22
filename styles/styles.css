@@ -1,0 +1,146 @@
+/*This we are import the fonts for our site*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/*ALl the stuff inside the body tag is in the Raleway Font*/
+body{
+    font-family: 'Old Standard TT', serif;  /*This is font style*/
+    /*padding-left: 120px;                  /*This is make spaces from start of the line*/
+    line-height: 2.5em;
+    font-weight: 600;
+    /*background-image: url("../images/Free-Minimalist-Subtle-Patterns-for-Clean-Websites1.jpg");*/
+    background-image: url("https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?size=626&ext=jpg");
+    background-size:auto;
+}
+
+
+
+/*THis is class without the link list*/
+.ourcontent{
+    max-width: 671px;                       /*This make tha all stuff in the center*/
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+.ourcontent h1{
+    color: black;
+}
+
+
+
+.ourcontent h1:hover{
+    color: red;    
+}
+
+
+
+.Home {
+    background-color: orange;
+}
+
+
+
+/*This style for unorderd list*/
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+/*This is style for list*/
+li{
+    float:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    
+}
+
+
+
+/*This is for list making navbar*/
+li a{
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+
+
+/*Link hover style*/
+li a:hover{
+    background-color: black;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/*Paragraphs Style*/
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+}
+
+
+
+/*input style */
+input{
+    background-image: url("../images/8x7jrk.png");
+    font-weight: 600;
+    font-family:'Rancho', cursive;
+    backface-visibility: inherit;
+
+}
+
+
+
+/*This is for making button style*/
+.btn.btn-primary{
+    background-color: dodgerblue;
+
+}
+
+
+
+/*This is shining style*/
+.btn.btn-primary:hover{
+    background-color: blue ;
+}
+
+
+
+.img1:hover{
+    -webkit-box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+}
+
+.img2:hover{
+    -webkit-box-shadow: 0px 2px 36px 2px red;
+    -moz-box-shadow: 0px 2px 36px 2px red;
+    box-shadow: 0px 2px 36px 2px red;
+}
+
+.img3:hover{
+    -webkit-box-shadow: 0px 2px 36px 2px red;
+    -moz-box-shadow: 0px 2px 36px 2px red;
+    box-shadow: 0px 2px 36px 2px red;
+}
+
+.img4:hover{
+    -webkit-box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 36px 2px rgba(0,0,0,0.75);
+}
